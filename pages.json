@@ -1,0 +1,103 @@
+{
+	"pages": [
+		//pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+		{
+			"path": "pages/tabbar/movie",
+			"navigationBarTitleText": " ",
+			"style": {
+				"app-plus": {
+					"titleNView": {
+						"backgroundColor": "#FA8072",
+						"titleText": "",
+						"searchInput": {
+							"borderRadius": "15px",
+							"placeholder": "输入影视剧名称",
+							"disabled": true
+						},
+						"buttons": [{
+							"text": "取消",
+							"fontSize": "14"
+						}]
+					},
+					"pullToRefresh": {
+						"support": true,
+						"color": "#ff3333",
+						"style": "circle",
+						"range": "10%"
+					}
+				}
+			}
+		},
+		{
+			"path": "pages/tabbar/novel",
+			"style": {}
+		},
+		{
+			"path": "pages/tabbar/discovery",
+			"style": {}
+		},
+		{
+			"path": "pages/tabbar/personal",
+			"style": {}
+		},
+		{
+			"path": "pages/HM-search/HM-search",
+			"style": {
+				"app-plus": {
+					"titleNView": false
+				}
+			}
+		}, {
+			"path": "pages/movie/movieDetails/movieDetails",
+			"style": {
+				"app-plus": {
+					"titleNView": {
+						"type": "transparent",
+						"buttons": [{
+							"type": "back",
+							"float": "left",
+							"background": "rgba(255,255,255,0)"
+						}]
+					}
+				}
+			}
+		}
+	],
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarBackgroundColor": "#F8F8F8",
+		"backgroundColor": "#F8F8F8"
+	},
+	"tabBar": {
+		"borderStyle": "white",
+		"backgroundColor": "#FFFFFF",
+		"color": "#8F8F94",
+		"selectedColor": "#FA8072",
+		"position": "bottom",
+		"list": [{
+				"pagePath": "pages/tabbar/movie",
+				"iconPath": "static/img/tabbarNormal/movie.png",
+				"selectedIconPath": "static/img/tabbarSelected/movie.png",
+				"text": "影视"
+			},
+			{
+				"pagePath": "pages/tabbar/novel",
+				"iconPath": "static/img/tabbarNormal/novel.png",
+				"selectedIconPath": "static/img/tabbarSelected/novel.png",
+				"text": "小说"
+			},
+			{
+				"pagePath": "pages/tabbar/discovery",
+				"iconPath": "static/img/tabbarNormal/discovery.png",
+				"selectedIconPath": "static/img/tabbarSelected/discovery.png",
+				"text": "发现"
+			},
+			{
+				"pagePath": "pages/tabbar/personal",
+				"iconPath": "static/img/tabbarNormal/personal.png",
+				"selectedIconPath": "static/img/tabbarSelected/personal.png",
+				"text": "个人中心"
+			}
+		]
+	}
+}

@@ -1,0 +1,55 @@
+{
+  "pages": [
+    "pages/tabbar/movie",
+    "pages/tabbar/novel",
+    "pages/tabbar/discovery",
+    "pages/tabbar/personal",
+    "pages/HM-search/HM-search",
+    "pages/movie/movieDetails/movieDetails"
+  ],
+  "subPackages": [],
+  "window": {
+    "navigationBarTextStyle": "black",
+    "navigationBarBackgroundColor": "#F8F8F8",
+    "backgroundColor": "#F8F8F8"
+  },
+  "usingComponents": {},
+  "tabBar": {
+    "borderStyle": "white",
+    "backgroundColor": "#FFFFFF",
+    "color": "#8F8F94",
+    "selectedColor": "#FA8072",
+    "position": "bottom",
+    "list": [
+      {
+        "pagePath": "pages/tabbar/movie",
+        "iconPath": "static/img/tabbarNormal/movie.png",
+        "selectedIconPath": "static/img/tabbarSelected/movie.png",
+        "text": "影视"
+      },
+      {
+        "pagePath": "pages/tabbar/novel",
+        "iconPath": "static/img/tabbarNormal/novel.png",
+        "selectedIconPath": "static/img/tabbarSelected/novel.png",
+        "text": "小说"
+      },
+      {
+        "pagePath": "pages/tabbar/discovery",
+        "iconPath": "static/img/tabbarNormal/discovery.png",
+        "selectedIconPath": "static/img/tabbarSelected/discovery.png",
+        "text": "发现"
+      },
+      {
+        "pagePath": "pages/tabbar/personal",
+        "iconPath": "static/img/tabbarNormal/personal.png",
+        "selectedIconPath": "static/img/tabbarSelected/personal.png",
+        "text": "个人中心"
+      }
+    ]
+  },
+  "splashscreen": {
+    "alwaysShowBeforeRender": true,
+    "autoclose": false
+  },
+  "appname": "monkeyBox"
+}
