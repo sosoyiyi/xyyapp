@@ -51,5 +51,6 @@
     "alwaysShowBeforeRender": true,
     "autoclose": false
   },
-  "appname": "monkeyBox"
+  "appname": "monkeyBox",
+  "compilerVersion": "1.8.1"
 }

@@ -1,0 +1,24 @@
+{
+  "usingComponents": {},
+  "titleNView": {
+    "backgroundColor": "#FA8072",
+    "titleText": "",
+    "searchInput": {
+      "borderRadius": "15px",
+      "placeholder": "输入影视剧名称",
+      "disabled": true
+    },
+    "buttons": [
+      {
+        "text": "取消",
+        "fontSize": "14"
+      }
+    ]
+  },
+  "pullToRefresh": {
+    "support": true,
+    "color": "#ff3333",
+    "style": "circle",
+    "range": "10%"
+  }
+}

@@ -1,0 +1,2 @@
+setCssToHead(["@charset \x22UTF-8\x22;\n.",[1],"status_bar { height: var(--status-bar-height); width: 100%; background-color: #000000; }\n.",[1],"top_view { height: var(--status-bar-height); width: 100%; position: fixed; top: 0; background-color: #000000; z-index: 999; }\n",],undefined,{path:"./pages/movie/movieDetails/movieDetails.wxss"})();
+document.dispatchEvent(new CustomEvent("generateFuncReady", { detail: { generateFunc: $gwx('./pages/movie/movieDetails/movieDetails.wxml') } }));

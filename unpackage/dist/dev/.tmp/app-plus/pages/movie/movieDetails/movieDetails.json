@@ -1,0 +1,13 @@
+{
+  "usingComponents": {},
+  "titleNView": {
+    "type": "transparent",
+    "buttons": [
+      {
+        "type": "back",
+        "float": "left",
+        "background": "rgba(255,255,255,0)"
+      }
+    ]
+  }
+}
